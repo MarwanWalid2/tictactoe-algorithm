@@ -5,7 +5,6 @@ Tic Tac Toe Player
 import math
 import copy
 import random
-from turtle import pos
 
 X = "X"
 O = "O"
