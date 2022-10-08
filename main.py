@@ -23,8 +23,8 @@ def user_move(board):
     
     while True:
         move = [None,None]
-        move[0] = int(input("Enter the row: "))
-        move[1] = int(input("Enter the column: "))
+        move[0] = int(input("Enter the row(0-2): "))
+        move[1] = int(input("Enter the column(0-2): "))
         move = (move[0], move[1])
         if move in alg.actions(board):
             return move
